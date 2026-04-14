@@ -39,8 +39,8 @@
             this.lblEstatura = new System.Windows.Forms.Label();
             this.lblTelefono = new System.Windows.Forms.Label();
             this.gpGenero = new System.Windows.Forms.GroupBox();
-            this.rbFemenino = new System.Windows.Forms.RadioButton();
-            this.rbMasculino = new System.Windows.Forms.RadioButton();
+            this.rbMujer = new System.Windows.Forms.RadioButton();
+            this.rbHombre = new System.Windows.Forms.RadioButton();
             this.btnGuardar = new System.Windows.Forms.Button();
             this.btnBorrar = new System.Windows.Forms.Button();
             this.gpGenero.SuspendLayout();
@@ -133,8 +133,8 @@
             // 
             // gpGenero
             // 
-            this.gpGenero.Controls.Add(this.rbFemenino);
-            this.gpGenero.Controls.Add(this.rbMasculino);
+            this.gpGenero.Controls.Add(this.rbMujer);
+            this.gpGenero.Controls.Add(this.rbHombre);
             this.gpGenero.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gpGenero.Location = new System.Drawing.Point(35, 250);
             this.gpGenero.Name = "gpGenero";
@@ -143,27 +143,27 @@
             this.gpGenero.TabStop = false;
             this.gpGenero.Text = "Genero";
             // 
-            // rbFemenino
+            // rbMujer
             // 
-            this.rbFemenino.AutoSize = true;
-            this.rbFemenino.Location = new System.Drawing.Point(168, 55);
-            this.rbFemenino.Name = "rbFemenino";
-            this.rbFemenino.Size = new System.Drawing.Size(79, 17);
-            this.rbFemenino.TabIndex = 1;
-            this.rbFemenino.TabStop = true;
-            this.rbFemenino.Text = "Femenino";
-            this.rbFemenino.UseVisualStyleBackColor = true;
+            this.rbMujer.AutoSize = true;
+            this.rbMujer.Location = new System.Drawing.Point(168, 55);
+            this.rbMujer.Name = "rbMujer";
+            this.rbMujer.Size = new System.Drawing.Size(56, 17);
+            this.rbMujer.TabIndex = 1;
+            this.rbMujer.TabStop = true;
+            this.rbMujer.Text = "Mujer";
+            this.rbMujer.UseVisualStyleBackColor = true;
             // 
-            // rbMasculino
+            // rbHombre
             // 
-            this.rbMasculino.AutoSize = true;
-            this.rbMasculino.Location = new System.Drawing.Point(18, 55);
-            this.rbMasculino.Name = "rbMasculino";
-            this.rbMasculino.Size = new System.Drawing.Size(82, 17);
-            this.rbMasculino.TabIndex = 0;
-            this.rbMasculino.TabStop = true;
-            this.rbMasculino.Text = "Masculino";
-            this.rbMasculino.UseVisualStyleBackColor = true;
+            this.rbHombre.AutoSize = true;
+            this.rbHombre.Location = new System.Drawing.Point(18, 55);
+            this.rbHombre.Name = "rbHombre";
+            this.rbHombre.Size = new System.Drawing.Size(68, 17);
+            this.rbHombre.TabIndex = 0;
+            this.rbHombre.TabStop = true;
+            this.rbHombre.Text = "Hombre";
+            this.rbHombre.UseVisualStyleBackColor = true;
             // 
             // btnGuardar
             // 
@@ -231,8 +231,8 @@
         private System.Windows.Forms.Label lblEstatura;
         private System.Windows.Forms.Label lblTelefono;
         private System.Windows.Forms.GroupBox gpGenero;
-        private System.Windows.Forms.RadioButton rbFemenino;
-        private System.Windows.Forms.RadioButton rbMasculino;
+        private System.Windows.Forms.RadioButton rbMujer;
+        private System.Windows.Forms.RadioButton rbHombre;
         private System.Windows.Forms.Button btnGuardar;
         private System.Windows.Forms.Button btnBorrar;
     }
